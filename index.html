@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Reading List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>My Reading List</h1>
+    <p>Keep track of the books you want to read.</p>
+
+    <form id="book-form">
+      <input id="book-title" type="text" placeholder="Book title" required>
+      <input id="book-author" type="text" placeholder="Author name" required>
+      <button type="submit">Add Book</button>
+    </form>
+
+    <p id="book-count"></p>
+    <div id="book-list"></div>
+    <p id="empty-message">Your reading list is empty. Add your first book!</p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
